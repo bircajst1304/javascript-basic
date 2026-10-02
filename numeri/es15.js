@@ -12,6 +12,7 @@
 function es15() {
   const netto = 100;
   // TODO: scrivi qui la tua soluzione
+  
 }
 
 // --- NON MODIFICARE SOTTO ---
