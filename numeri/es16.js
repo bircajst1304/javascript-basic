@@ -14,6 +14,13 @@
 function es16() {
   const voti = [7, 8, 6, 9, 8];
   // TODO: scrivi qui la tua soluzione
+  var somma = 0;
+for (let i = 0; i < voti.length; i++) {
+  const element = voti[i];
+  somma += element;
+}
+var media = somma/voti.length;
+return {somma, media, mediaArrotondata: Math.round(media), }
 }
 
 // --- NON MODIFICARE SOTTO ---
