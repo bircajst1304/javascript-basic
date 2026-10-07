@@ -13,7 +13,7 @@
 
 function es11(persona) {
   // TODO: scrivi qui la tua soluzione
-  if (persona !== " " && persona >=18) {
+  if (persona.nome !== " " && persona.eta >=18) {
     return true;
   }
   else {
