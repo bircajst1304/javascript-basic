@@ -14,6 +14,7 @@
 function es15() {
   const email = "   MARIO.ROSSI@GMAIL.COM   ";
   // TODO: scrivi qui la tua soluzione
+  
 }
 
 // --- NON MODIFICARE SOTTO ---
