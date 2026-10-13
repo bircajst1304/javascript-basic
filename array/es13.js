@@ -12,16 +12,19 @@
 function es13_1(arr) {
   // 1. Restituisci solo i numeri maggiori di 10
   // TODO: scrivi qui la tua soluzione
+  return arr.filter(x => x > 10);
 }
 
 function es13_2(arr) {
   // 2. Restituisci solo le stringhe con lunghezza >= 5
   // TODO: scrivi qui la tua soluzione
+  return arr.filter(s => s.length >= 5);
 }
 
 function es13_3(arr) {
   // 3. Restituisci solo i numeri pari
   // TODO: scrivi qui la tua soluzione
+  return arr.filter(n => n % 2 === 0);
 }
 
 // --- NON MODIFICARE SOTTO ---
