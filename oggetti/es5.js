@@ -12,16 +12,21 @@
 function es5_1(obj, key) {
   // 1. Elimina obj[key] e restituisci obj
   // TODO: scrivi qui la tua soluzione
+  delete obj[key];
+  return obj;
 }
 
 function es5_2(obj) {
   // 2. Elimina obj.password e restituisci obj
   // TODO: scrivi qui la tua soluzione
+  delete obj.password;
+  return obj;
 }
 
 function es5_3(obj) {
   // 3. Elimina obj.temp e restituisci il risultato di delete (true/false)
   // TODO: scrivi qui la tua soluzione
+  return delete obj.temp;
 }
 
 // --- NON MODIFICARE SOTTO ---
