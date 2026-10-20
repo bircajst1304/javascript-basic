@@ -25,6 +25,13 @@ function es24(nome) {
     { nome: "Clara", telefono: "789" }
   ];
   // TODO: scrivi qui la tua soluzione
+  const trovato = rubrica.find(n => n.nome === nome);
+  if (trovato) {
+    return trovato.telefono;
+  }
+  else {
+    return "non trovato";
+  }
 }
 
 // --- NON MODIFICARE SOTTO ---

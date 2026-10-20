@@ -12,6 +12,12 @@
 
 function es23(numeri) {
   // TODO: scrivi qui la tua soluzione
+  var somma = 0;
+  for (let i = 0; i < numeri.length; i++) {
+    const elementi = numeri [i];
+    somma += elementi;
+  }
+  return somma;
 }
 
 // --- NON MODIFICARE SOTTO ---
