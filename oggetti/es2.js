@@ -12,16 +12,19 @@
 function es2_1(obj) {
   // 1. Restituisci obj.nome
   // TODO: scrivi qui la tua soluzione
+  return obj.nome;
 }
 
 function es2_2(pers) {
   // 2. Restituisci pers.cognome
   // TODO: scrivi qui la tua soluzione
+  return pers.cognome;
 }
 
 function es2_3(studente) {
   // 3. Restituisci studente.nome + " ha " + studente.eta + " anni"
   // TODO: scrivi qui la tua soluzione
+  return studente.nome + " ha " + studente.eta + " anni";
 }
 
 // --- NON MODIFICARE SOTTO ---

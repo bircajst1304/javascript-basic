@@ -18,11 +18,13 @@ function es1_1(nome, eta) {
 function es1_2(marca, modello, anno) {
   // 2. Restituisci un oggetto { marca, modello, anno }
   // TODO: scrivi qui la tua soluzione
+  return {marca, modello, anno};
 }
 
 function es1_3() {
   // 3. Restituisci un oggetto vuoto
   // TODO: scrivi qui la tua soluzione
+  return {};
 }
 
 // --- NON MODIFICARE SOTTO ---
