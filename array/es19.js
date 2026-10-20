@@ -13,6 +13,13 @@
 
 function es19(voti) {
   // TODO: scrivi qui la tua soluzione
+  var somma = 0;
+  for (let i = 0; i < voti.length; i++) {
+    const elementi = voti[i];
+    somma += elementi;
+  }
+  var media = somma / voti.length;
+  return {somma, media};
 }
 
 // --- NON MODIFICARE SOTTO ---
