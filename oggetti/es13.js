@@ -13,16 +13,19 @@
 function es13_1(obj) {
   // 1. Restituisci obj.indirizzo?.citta (con optional chaining)
   // TODO: scrivi qui la tua soluzione
+  return obj.indirizzo?.citta;
 }
 
 function es13_2(persona) {
   // 2. Restituisci persona.contatti?.email ?? "non presente"
   // TODO: scrivi qui la tua soluzione
+  return persona.contatti?.email ?? "non presente";
 }
 
 function es13_3(obj) {
   // 3. Restituisci obj.dati?.nome ?? "anonimo"
   // TODO: scrivi qui la tua soluzione
+  return obj.dati?.nome ?? "anonimo";
 }
 
 // --- NON MODIFICARE SOTTO ---

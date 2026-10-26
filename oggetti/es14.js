@@ -12,17 +12,20 @@
 function es14_1(key, val) {
   // 1. Restituisci { [key]: val } (proprietà calcolata)
   // TODO: scrivi qui la tua soluzione
+  return {[key]: val};
 }
 
 function es14_2(prefix, val1, val2) {
   // 2. Crea { [prefix + "1"]: val1, [prefix + "2"]: val2 }
   // TODO: scrivi qui la tua soluzione
+  return {[prefix + "1"]: val1, [prefix + "2"]: val2};
 }
 
 function es14_3(nome, eta) {
   // 3. Crea un oggetto { nome: nome, eta: eta } usando solo proprietà calcolate
   // Suggerimento: usa chiavi "nome" e "età" per le proprietà calcolate
   // TODO: scrivi qui la tua soluzione
+  return { ["nome"]: nome, ["eta"]: eta };
 }
 
 // --- NON MODIFICARE SOTTO ---

@@ -11,16 +11,19 @@
 function es9_1(obj) {
   // 1. Restituisci gli entries di obj
   // TODO: scrivi qui la tua soluzione
+  return Object.entries(obj);
 }
 
 function es9_2(obj) {
   // 2. Restituisci Object.entries({ a: 1, b: 2 })
   // TODO: scrivi qui la tua soluzione
+  return Object.entries({a : 1, b : 2});
 }
 
 function es9_3(obj) {
   // 3. Restituisci la prima chiave di obj (usa Object.keys(obj)[0])
   // TODO: scrivi qui la tua soluzione
+  return Object.keys(obj)[0];
 }
 
 // --- NON MODIFICARE SOTTO ---

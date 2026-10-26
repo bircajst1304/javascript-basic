@@ -14,6 +14,7 @@
 
 function es15(nome, eta, citta) {
   // TODO: scrivi qui la tua soluzione
+  return { nome: nome, eta: eta , citta: citta , descrizione: "Mario, 25 anni, Roma" };
 }
 
 // --- NON MODIFICARE SOTTO ---

@@ -11,17 +11,27 @@
 function es8_1(obj) {
   // 1. Restituisci i valori di obj
   // TODO: scrivi qui la tua soluzione
+  return Object.values(obj);
 }
 
 function es8_2(obj) {
   // 2. Restituisci il primo valore di obj (values[0])
   // TODO: scrivi qui la tua soluzione
+  return Object.values(obj)[0];
 }
 
 function es8_3(prezzi) {
   // 3. Riceve un oggetto con prezzi e restituisce la somma dei valori
   // Suggerimento: Object.values() + ciclo for
   // TODO: scrivi qui la tua soluzione
+  var somma = 0
+  const ne = Object.values(prezzi);
+   for (let i = 0; i < ne.length; i++) {   
+    const elementi = ne[i];
+    somma += elementi;
+  }
+  return somma;
+  
 }
 
 // --- NON MODIFICARE SOTTO ---
